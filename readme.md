@@ -1,15 +1,17 @@
-![Advanced React + GraphQL](https://advancedreact.com/images/ARG/arg-facebook-share.png)
+# Sick Fits StoreFront 👟
 
-# Advanced React + GraphQL
+Sick Fits is an online store built along with the [Advanced React and GraphQL](https://AdvancedReact.com) course by Wes Bos.
 
-These are the starter files and stepped solutions for the [Advanced React and GraphQL](https://AdvancedReact.com) course by Wes Bos. 
+## Technologies Used:
 
-## Getting Help
+### Front End:
 
-The best place to get help is in the #advanced-react slack room - there is a link in your course dashboard. 
+* [Next.js](https://nextjs.org/) - layour, server-side rendering, bundling
+* [styled-components](https://www.styled-components.com/) - styling CSS-in-JS
+* [React-Apollo](https://www.apollographql.com/docs/react/essentials/get-started.html) - interface with Apollo client for performing graphql mutations + queries, managing local state and cache, creating error handling and loading UI states.
 
+## Back End:
 
-## FAQ
+* [GraphQL-yoga](https://github.com/prisma/graphql-yoga) - Express GraphQL server for implementing logic for prisma
+* [Prisma](https://www.prisma.io/docs) - GraphQL database interface, providing set of GraphQL CRUD APIs. Queried from GraphQL-yoga server.
 
-**Q:** Which Extensions for VS Code is Wes using?
-**A:** All my extensions are listed on my dotfiles repo → https://github.com/wesbos/dotfiles but specifically this course uses [ESLint](https://github.com/Microsoft/vscode-eslint), [Prettier](https://github.com/prettier/prettier-vscode)
